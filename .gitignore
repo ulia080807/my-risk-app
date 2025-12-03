@@ -1,0 +1,29 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные файлы Office
+~$*.pptx
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# Кеш и логи
+*.log
+.cache/
+tmp/
+
+# Зависимости (если будет код)
+node_modules/
+__pycache__/
+venv/
+.env
+*.env
+secrets.json
+
+# Скомпилированные файлы
+*.exe
+*.dll
+*.so
+*.dylib
